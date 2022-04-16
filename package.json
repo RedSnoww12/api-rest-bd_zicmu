@@ -1,0 +1,16 @@
+{
+  "name": "ihm-api",
+  "version": "1.0.0",
+  "description": "Api Pour l'IHM",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon server/server.js -w server"
+  },
+  "author": "SEMERU",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  }
+}
